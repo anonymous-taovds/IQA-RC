@@ -23,11 +23,20 @@ Under preprocess folder, modify the *.cfg configuration file，with InputFile/Fr
     ```
     python train_nima.py
     ```
-2. Run the following command for getting the visualization maps and weighted MSE of images of different QPs.
+
+2. Run the following command for getting the visualization maps weighted MSE and IQA scores of images of different QPs.
     ```
     python wmse_cam_qp_nima.py
     ```
-3. Use MATLAB to .
+
+3. Input weighted MSE and IQA scores and run `fit_nima.m` to opimize the VSD model. Commands for Hyper-IQA are in `./VSD model/Hyper-IQA/` and can be conducted in the same way as the above steps.
+
+4. After obtaining the specific values of the learnable parameters in the VSD model, run the following command to get the weighed maps used in RC.
+    ```
+    python map_vsd.py
+    ```
+
+
 
 ## 5. Process after fitting
 1. After getting the fitted visualization map, change the map resolution to 448 * 448 through the 448.sh file under afterfitting folder.
