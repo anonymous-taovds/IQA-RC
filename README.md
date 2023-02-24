@@ -22,7 +22,7 @@ Under preprocess folder, modify the *.cfg configuration file，with InputFile/Fr
     ```
 2. Run read49.py under the directory to generate the saliency information file corresponding to the map under each QPs. Generate saliency.txt corresponding to different qps in each fitting folder.
     ```
-    py read49.py
+    python read49.py
     ```
 4）Visualization map encode
 1. Modify the *.cfg configuration file with InputFile/FramesToBeEncoded/BitstreamFile/QP settings.
