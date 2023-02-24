@@ -1,2 +1,2 @@
 # IQA-RC
-Optimizing dnn based quality assessment metric for image compression: a novel rate control method
+Optimizing Dnn Based Quality Assessment Metric for Image Compression: A Novel Rate Control Method
