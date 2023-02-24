@@ -31,7 +31,7 @@ Under preprocess folder, modify the *.cfg configuration file，with InputFile/Fr
 
 3. Input weighted MSE and IQA scores and run `fit_nima.m` to opimize the VSD model. Commands for Hyper-IQA are in `./VSD model/Hyper-IQA/` and can be conducted in the same way as the above steps.
 
-4. After obtaining the specific values of the learnable parameters in the VSD model, run the following command to get the weighed maps used in RC.
+4. After obtaining the specific values of the learnable parameters in the VSD model, run the following command in `./VSD model/` to get the weighed maps used in RC.
     ```
     python map_vsd.py
     ```
