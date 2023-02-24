@@ -5,6 +5,8 @@ Optimizing Dnn Based Quality Assessment Metric for Image Compression: A Novel Ra
     PyTorch = 1.5.1
     opencv-python
 
+## 2. Dataset
+The four datasets, Kodak, Tecnick, Kadid-10k and TID2013, applied in this project are open source and can be downloaded according to references of the paper.
 
 ## 3. Pre-process
 1. Preprocess the original file to get the bit rate distribution of the original images(saliencybits.txt) set under different QPs and the encoded image(*.bin). 
