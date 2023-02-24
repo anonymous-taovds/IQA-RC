@@ -1,6 +1,9 @@
 # IQA-RC
 Optimizing Dnn Based Quality Assessment Metric for Image Compression: A Novel Rate Control Method
-
+## 1. Environment
+    Python 3.7
+    PyTorch = 1.5.1
+    opencv-python
 
 
 ## 3. Pre-process
